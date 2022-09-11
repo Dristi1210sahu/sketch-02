@@ -1,0 +1,48 @@
+body{
+    background-color: yellow;
+    
+}
+
+h1{
+    color: red;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+   background-color: pink;
+}
+
+#show_drawings{
+    float: right;
+}
+
+p{
+    color: blueviolet;
+    font-size: 30px;
+    font-family: 'Ms Madi', cursive;
+}
+
+.button1{
+    color:yellowgreen;
+    background-color: blue;
+    border:3px dashed black;
+    border-radius:20px;
+    width: 150px;
+    height: 35px;
+    
+}
+
+canvas{
+    border:5px solid black;
+    border-radius:20px;
+    animation-name:canvas;
+    animation-duration:3s;
+    animation-iteration-count:infinite;
+    margin:30px;
+
+}
+
+@keyframes canvas {
+   from{box-shadow: 5px 5px 40px pink;} 
+   to{box-shadow: 5px 5px 40px red;}
+}
+
+
